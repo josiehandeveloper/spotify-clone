@@ -1,0 +1,9 @@
+.searchPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchPage__body {
+  display: flex;
+  flex-grow: 1;
+}

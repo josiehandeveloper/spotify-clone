@@ -1,0 +1,26 @@
+.sidebarOption {
+  display: flex;
+  color: grey;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.sidebarOption:hover {
+  transition: 260ms color ease-in;
+  color: white;
+}
+
+.sidebarOption > p {
+  margin: 10px 0 0 20px;
+  font-size: 14px;
+}

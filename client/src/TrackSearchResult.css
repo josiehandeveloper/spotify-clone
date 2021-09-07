@@ -1,0 +1,20 @@
+.track {
+  display: flex;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.track > img {
+  padding: 0px 20px 0px 0px;
+}
+
+.track__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.track__artist {
+  color: grey;
+  font-size: 13px;
+}
